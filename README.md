@@ -20,15 +20,15 @@ dependencies:
 
 Then run:
 
-\`\`\`sh
+```sh
 flutter pub get
-\`\`\`
+```
 
 ## Usage
 
 To use this package, import it into your Dart file:
 
-\`\`\`dart
+```dart
 import 'package:arithmetic_amallar/arithmetic_amallar.dart';
 
 void main() {
@@ -54,15 +54,15 @@ void main() {
     print('Error: \$e');
   }
 }
-\`\`\`
+```
 
 ## API
 
 ### add
 
-\`\`\`dart
+```dart
 static double add(double a, double b)
-\`\`\`
+```
 
 Adds two numbers and returns the result.
 
@@ -77,9 +77,9 @@ Adds two numbers and returns the result.
 
 ### subtract
 
-\`\`\`dart
+```dart
 static double subtract(double a, double b)
-\`\`\`
+```
 
 Subtracts the second number from the first number and returns the result.
 
@@ -94,9 +94,9 @@ Subtracts the second number from the first number and returns the result.
 
 ### multiply
 
-\`\`\`dart
+```dart
 static double multiply(double a, double b)
-\`\`\`
+```
 
 Multiplies two numbers and returns the result.
 
@@ -111,9 +111,9 @@ Multiplies two numbers and returns the result.
 
 ### divide
 
-\`\`\`dart
+```dart
 static double divide(double a, double b)
-\`\`\`
+```
 
 Divides the first number by the second number and returns the result. Throws an `ArgumentError` if the second number is zero.
 
@@ -132,7 +132,7 @@ Divides the first number by the second number and returns the result. Throws an 
 
 ## Example
 
-\`\`\`dart
+```dart
 import 'package:arithmetic_amallar/arithmetic_amallar.dart';
 
 void main() {
@@ -159,7 +159,7 @@ void main() {
     print('Error: \$e');
   }
 }
-\`\`\`
+```
 
 ## License
 
