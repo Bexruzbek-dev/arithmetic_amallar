@@ -1,7 +1,8 @@
 name: arithmetic_amallar
-description: A starting point for Dart libraries or applications.
+description: This package helps to solve arithmetic problems easily!
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/Bexruzbek-dev/arithmetic_amallar
+homepage: https://github.com/Bexruzbek-dev/arithmetic_amallar
 
 environment:
   sdk: ^3.3.3
@@ -13,3 +14,4 @@ dependencies:
 dev_dependencies:
   lints: ^3.0.0
   test: ^1.24.0
+
