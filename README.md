@@ -13,10 +13,10 @@
 
 Add the following to your `pubspec.yaml` file:
 
-\`\`\`yaml
+```yaml
 dependencies:
   arithmetic_amallar: ^1.0.0
-\`\`\`
+```
 
 Then run:
 
